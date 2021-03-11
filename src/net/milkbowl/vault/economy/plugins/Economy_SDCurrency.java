@@ -162,7 +162,7 @@ public class Economy_SDCurrency extends AbstractEconomy {
 
     @Override
     public EconomyResponse depositPlayer(OfflinePlayer offlinePlayer, double v) {
-        return depositPlayer(offlinePlayer, v);
+        return economy.depositPlayer(offlinePlayer, v);
     }
 
     @Override
